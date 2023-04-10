@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (TemplateProject) JobQueued: {'identifier': 'TemplateProject', 'dependencies': OrderedDict()}
+[0.000531] (skuid-nav2-bringup) JobQueued: {'identifier': 'skuid-nav2-bringup', 'dependencies': OrderedDict()}
+[0.000545] (TemplateProject) JobStarted: {'identifier': 'TemplateProject'}
+[0.010659] (skuid-nav2-bringup) JobStarted: {'identifier': 'skuid-nav2-bringup'}
+[0.018566] (TemplateProject) JobProgress: {'identifier': 'TemplateProject', 'progress': 'cmake'}
+[0.018814] (TemplateProject) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/skuid-nav2/project_folder', '-DCMAKE_BUILD_TYPE=Debug', '-Wall', '-Wextra', '-Wpedantic', '-DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/TemplateProject'], 'cwd': '/workspaces/skuid-nav2/build/TemplateProject', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/TemplateProject'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1')]), 'shell': False}
+[0.023601] (skuid-nav2-bringup) JobProgress: {'identifier': 'skuid-nav2-bringup', 'progress': 'cmake'}
+[0.024062] (skuid-nav2-bringup) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/skuid-nav2/skuid-nav2-bringup', '-DCMAKE_BUILD_TYPE=Debug', '-Wall', '-Wextra', '-Wpedantic', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/skuid-nav2-bringup'], 'cwd': '/workspaces/skuid-nav2/build/skuid-nav2-bringup', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/skuid-nav2-bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099823] (-) TimerEvent: {}
+[0.101871] (skuid-nav2-bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.113837] (TemplateProject) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.123443] (TemplateProject) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.152523] (skuid-nav2-bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.159316] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190059] (TemplateProject) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.197229] (TemplateProject) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.197554] (TemplateProject) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198249] (TemplateProject) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199870] (-) TimerEvent: {}
+[0.217576] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.226554] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226806] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227190] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.229986] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.285611] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.292882] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.293062] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.293479] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.298178] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299948] (-) TimerEvent: {}
+[0.400095] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.400227] (-) TimerEvent: {}
+[0.462226] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.487269] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500365] (-) TimerEvent: {}
+[0.560882] (skuid-nav2-bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.562484] (skuid-nav2-bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.562972] (skuid-nav2-bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.563382] (skuid-nav2-bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.564179] (skuid-nav2-bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.565456] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.567168] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.567668] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/skuid-nav2/build/skuid-nav2-bringup\n'}
+[0.571398] (skuid-nav2-bringup) CommandEnded: {'returncode': 0}
+[0.571934] (skuid-nav2-bringup) JobProgress: {'identifier': 'skuid-nav2-bringup', 'progress': 'build'}
+[0.572396] (skuid-nav2-bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/skuid-nav2/build/skuid-nav2-bringup', '--', '-j8', '-l8'], 'cwd': '/workspaces/skuid-nav2/build/skuid-nav2-bringup', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/skuid-nav2-bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.597599] (skuid-nav2-bringup) CommandEnded: {'returncode': 0}
+[0.600438] (-) TimerEvent: {}
+[0.615631] (skuid-nav2-bringup) JobProgress: {'identifier': 'skuid-nav2-bringup', 'progress': 'install'}
+[0.622367] (skuid-nav2-bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/skuid-nav2/build/skuid-nav2-bringup'], 'cwd': '/workspaces/skuid-nav2/build/skuid-nav2-bringup', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/skuid-nav2-bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.627309] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.627703] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.628083] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/launch/skuid-nav2.launch.py\n'}
+[0.633328] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/costmap_2d.yaml\n'}
+[0.637903] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/params_nav2_bringup.yaml\n'}
+[0.643920] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/slam_toolbox_async_param.yaml\n'}
+[0.649312] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/package_run_dependencies/skuid-nav2-bringup\n'}
+[0.653887] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/parent_prefix_path/skuid-nav2-bringup\n'}
+[0.659511] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/ament_prefix_path.sh\n'}
+[0.664991] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/ament_prefix_path.dsv\n'}
+[0.669307] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/path.sh\n'}
+[0.674529] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/path.dsv\n'}
+[0.679603] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.bash\n'}
+[0.684076] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.sh\n'}
+[0.689518] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.zsh\n'}
+[0.694722] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.dsv\n'}
+[0.700466] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/package.dsv\n'}
+[0.700597] (-) TimerEvent: {}
+[0.711621] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/packages/skuid-nav2-bringup\n'}
+[0.719044] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/cmake/skuid-nav2-bringupConfig.cmake\n'}
+[0.726105] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/cmake/skuid-nav2-bringupConfig-version.cmake\n'}
+[0.731514] (skuid-nav2-bringup) StdoutLine: {'line': b'-- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/package.xml\n'}
+[0.738130] (skuid-nav2-bringup) CommandEnded: {'returncode': 0}
+[0.769968] (skuid-nav2-bringup) JobEnded: {'identifier': 'skuid-nav2-bringup', 'rc': 0}
+[0.800709] (-) TimerEvent: {}
+[0.901038] (-) TimerEvent: {}
+[1.001471] (-) TimerEvent: {}
+[1.101844] (-) TimerEvent: {}
+[1.202206] (-) TimerEvent: {}
+[1.302610] (-) TimerEvent: {}
+[1.403089] (-) TimerEvent: {}
+[1.503421] (-) TimerEvent: {}
+[1.603665] (-) TimerEvent: {}
+[1.643086] (TemplateProject) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.651174] (TemplateProject) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.701159] (TemplateProject) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.703723] (-) TimerEvent: {}
+[1.707998] (TemplateProject) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.708244] (TemplateProject) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.708650] (TemplateProject) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.803869] (-) TimerEvent: {}
+[1.808957] (TemplateProject) StdoutLine: {'line': b'-- Found Python: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.811117] (TemplateProject) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.866543] (TemplateProject) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.866706] (TemplateProject) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.903967] (-) TimerEvent: {}
+[1.914686] (TemplateProject) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.915345] (TemplateProject) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.920654] (TemplateProject) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.934739] (TemplateProject) StdoutLine: {'line': b'-- Generating done\n'}
+[1.935918] (TemplateProject) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/skuid-nav2/build/TemplateProject\n'}
+[1.940416] (TemplateProject) CommandEnded: {'returncode': 0}
+[1.940957] (TemplateProject) JobProgress: {'identifier': 'TemplateProject', 'progress': 'build'}
+[1.941703] (TemplateProject) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/skuid-nav2/build/TemplateProject', '--', '-j8', '-l8'], 'cwd': '/workspaces/skuid-nav2/build/TemplateProject', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/TemplateProject'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1')]), 'shell': False}
+[1.970237] (TemplateProject) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.970424] (TemplateProject) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object src/CMakeFiles/CustomLibrary.dir/subfolder/source.cpp.o\x1b[0m\n'}
+[2.004119] (-) TimerEvent: {}
+[2.104368] (-) TimerEvent: {}
+[2.204614] (-) TimerEvent: {}
+[2.304881] (-) TimerEvent: {}
+[2.405120] (-) TimerEvent: {}
+[2.505365] (-) TimerEvent: {}
+[2.605613] (-) TimerEvent: {}
+[2.705869] (-) TimerEvent: {}
+[2.806127] (-) TimerEvent: {}
+[2.906465] (-) TimerEvent: {}
+[3.006808] (-) TimerEvent: {}
+[3.107063] (-) TimerEvent: {}
+[3.207338] (-) TimerEvent: {}
+[3.307658] (-) TimerEvent: {}
+[3.408035] (-) TimerEvent: {}
+[3.508322] (-) TimerEvent: {}
+[3.608669] (-) TimerEvent: {}
+[3.708954] (-) TimerEvent: {}
+[3.809227] (-) TimerEvent: {}
+[3.909538] (-) TimerEvent: {}
+[4.009809] (-) TimerEvent: {}
+[4.110080] (-) TimerEvent: {}
+[4.210359] (-) TimerEvent: {}
+[4.310664] (-) TimerEvent: {}
+[4.410977] (-) TimerEvent: {}
+[4.511230] (-) TimerEvent: {}
+[4.611511] (-) TimerEvent: {}
+[4.711781] (-) TimerEvent: {}
+[4.812028] (-) TimerEvent: {}
+[4.912289] (-) TimerEvent: {}
+[5.012591] (-) TimerEvent: {}
+[5.112875] (-) TimerEvent: {}
+[5.213195] (-) TimerEvent: {}
+[5.313479] (-) TimerEvent: {}
+[5.413735] (-) TimerEvent: {}
+[5.513980] (-) TimerEvent: {}
+[5.614235] (-) TimerEvent: {}
+[5.714521] (-) TimerEvent: {}
+[5.814809] (-) TimerEvent: {}
+[5.915092] (-) TimerEvent: {}
+[6.015475] (-) TimerEvent: {}
+[6.115808] (-) TimerEvent: {}
+[6.216117] (-) TimerEvent: {}
+[6.316444] (-) TimerEvent: {}
+[6.416784] (-) TimerEvent: {}
+[6.517102] (-) TimerEvent: {}
+[6.617411] (-) TimerEvent: {}
+[6.717731] (-) TimerEvent: {}
+[6.818026] (-) TimerEvent: {}
+[6.918284] (-) TimerEvent: {}
+[7.018577] (-) TimerEvent: {}
+[7.041942] (TemplateProject) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgtestd.a\x1b[0m\n'}
+[7.118698] (-) TimerEvent: {}
+[7.120146] (TemplateProject) StdoutLine: {'line': b'[ 21%] Built target gtest\n'}
+[7.143611] (TemplateProject) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[7.144986] (TemplateProject) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[7.218816] (-) TimerEvent: {}
+[7.319168] (-) TimerEvent: {}
+[7.419547] (-) TimerEvent: {}
+[7.519861] (-) TimerEvent: {}
+[7.620138] (-) TimerEvent: {}
+[7.720404] (-) TimerEvent: {}
+[7.820655] (-) TimerEvent: {}
+[7.920926] (-) TimerEvent: {}
+[8.021218] (-) TimerEvent: {}
+[8.121565] (-) TimerEvent: {}
+[8.221809] (-) TimerEvent: {}
+[8.322096] (-) TimerEvent: {}
+[8.422395] (-) TimerEvent: {}
+[8.459452] (TemplateProject) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libCustomLibrary.a\x1b[0m\n'}
+[8.519936] (TemplateProject) StdoutLine: {'line': b'[ 42%] Built target CustomLibrary\n'}
+[8.522482] (-) TimerEvent: {}
+[8.540930] (TemplateProject) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object app/CMakeFiles/app.dir/subfolder/app.cpp.o\x1b[0m\n'}
+[8.622591] (-) TimerEvent: {}
+[8.722900] (-) TimerEvent: {}
+[8.823208] (-) TimerEvent: {}
+[8.868455] (TemplateProject) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgtest_maind.a\x1b[0m\n'}
+[8.921456] (TemplateProject) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[8.923280] (-) TimerEvent: {}
+[8.938081] (TemplateProject) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object test/CMakeFiles/test-source.dir/subfolder/test-source.cpp.o\x1b[0m\n'}
+[9.023438] (-) TimerEvent: {}
+[9.123700] (-) TimerEvent: {}
+[9.223948] (-) TimerEvent: {}
+[9.324252] (-) TimerEvent: {}
+[9.424547] (-) TimerEvent: {}
+[9.524785] (-) TimerEvent: {}
+[9.625049] (-) TimerEvent: {}
+[9.725315] (-) TimerEvent: {}
+[9.825574] (-) TimerEvent: {}
+[9.925840] (-) TimerEvent: {}
+[10.026119] (-) TimerEvent: {}
+[10.126454] (-) TimerEvent: {}
+[10.226788] (-) TimerEvent: {}
+[10.327145] (-) TimerEvent: {}
+[10.427501] (-) TimerEvent: {}
+[10.511636] (TemplateProject) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable app\x1b[0m\n'}
+[10.522570] (TemplateProject) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgmockd.a\x1b[0m\n'}
+[10.527614] (-) TimerEvent: {}
+[10.595754] (TemplateProject) StdoutLine: {'line': b'[ 78%] Built target gmock\n'}
+[10.603058] (TemplateProject) StdoutLine: {'line': b'[ 78%] Built target app\n'}
+[10.610972] (TemplateProject) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[10.627731] (-) TimerEvent: {}
+[10.728074] (-) TimerEvent: {}
+[10.828410] (-) TimerEvent: {}
+[10.928812] (-) TimerEvent: {}
+[11.029091] (-) TimerEvent: {}
+[11.083317] (TemplateProject) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test-source\x1b[0m\n'}
+[11.129239] (-) TimerEvent: {}
+[11.229569] (-) TimerEvent: {}
+[11.241113] (TemplateProject) StdoutLine: {'line': b'[ 92%] Built target test-source\n'}
+[11.329670] (-) TimerEvent: {}
+[11.429920] (-) TimerEvent: {}
+[11.530155] (-) TimerEvent: {}
+[11.630426] (-) TimerEvent: {}
+[11.730712] (-) TimerEvent: {}
+[11.831011] (-) TimerEvent: {}
+[11.931327] (-) TimerEvent: {}
+[12.031575] (-) TimerEvent: {}
+[12.131852] (-) TimerEvent: {}
+[12.232093] (-) TimerEvent: {}
+[12.320164] (TemplateProject) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgmock_maind.a\x1b[0m\n'}
+[12.332199] (-) TimerEvent: {}
+[12.372019] (TemplateProject) StdoutLine: {'line': b'[100%] Built target gmock_main\n'}
+[12.378008] (TemplateProject) CommandEnded: {'returncode': 0}
+[12.393171] (TemplateProject) JobProgress: {'identifier': 'TemplateProject', 'progress': 'install'}
+[12.393375] (TemplateProject) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/skuid-nav2/build/TemplateProject'], 'cwd': '/workspaces/skuid-nav2/build/TemplateProject', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '81e2545c83d7'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh'), ('HOME', '/home/rnz'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-245b5a35-5c9f-448f-8913-4e1fd41c0b1b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-452bf35c-15c8-4e08-a04c-e2c2f4cd01ac.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock","/tmp/.X11-unix/X2","/home/rnz/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6799aa6eaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4a5b5449-11a5-490e-8618-8cfc5bd415c0.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/skuid-nav2/build/TemplateProject'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Copenhagen'), ('COLCON', '1')]), 'shell': False}
+[12.398671] (TemplateProject) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[12.399119] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include\n'}
+[12.399267] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock\n'}
+[12.399324] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal\n'}
+[12.399376] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-internal-utils.h\n'}
+[12.399460] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom\n'}
+[12.399553] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-matchers.h\n'}
+[12.399614] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/README.md\n'}
+[12.399718] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-port.h\n'}
+[12.399767] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-generated-actions.h\n'}
+[12.399814] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-port.h\n'}
+[12.399901] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-pp.h\n'}
+[12.399962] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-matchers.h\n'}
+[12.400193] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-matchers.h\n'}
+[12.400327] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-spec-builders.h\n'}
+[12.400424] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-nice-strict.h\n'}
+[12.400537] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-cardinalities.h\n'}
+[12.400629] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-actions.h\n'}
+[12.400942] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-function-mocker.h\n'}
+[12.401034] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock.h\n'}
+[12.401115] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-actions.h\n'}
+[12.401167] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmockd.a\n'}
+[12.403131] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmock_maind.a\n'}
+[12.403343] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock.pc\n'}
+[12.403418] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock_main.pc\n'}
+[12.403683] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets.cmake\n'}
+[12.403785] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets-debug.cmake\n'}
+[12.403862] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfigVersion.cmake\n'}
+[12.403925] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfig.cmake\n'}
+[12.403988] (TemplateProject) StdoutLine: {'line': b'-- Up-to-date: /workspaces/skuid-nav2/install/TemplateProject/include\n'}
+[12.404057] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest\n'}
+[12.404112] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal\n'}
+[12.404186] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-death-test-internal.h\n'}
+[12.404235] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom\n'}
+[12.404348] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest.h\n'}
+[12.404394] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/README.md\n'}
+[12.404438] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-port.h\n'}
+[12.404486] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-printers.h\n'}
+[12.404570] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port-arch.h\n'}
+[12.404618] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port.h\n'}
+[12.404664] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-param-util.h\n'}
+[12.404767] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-string.h\n'}
+[12.404822] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-internal.h\n'}
+[12.404920] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-filepath.h\n'}
+[12.404999] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-type-util.h\n'}
+[12.405046] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest.h\n'}
+[12.405109] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-death-test.h\n'}
+[12.405173] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-param-test.h\n'}
+[12.405235] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_prod.h\n'}
+[12.405298] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-typed-test.h\n'}
+[12.405365] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_pred_impl.h\n'}
+[12.405411] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-test-part.h\n'}
+[12.405471] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-matchers.h\n'}
+[12.405533] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-message.h\n'}
+[12.405595] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-printers.h\n'}
+[12.405656] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-spi.h\n'}
+[12.405731] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtestd.a\n'}
+[12.409673] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtest_maind.a\n'}
+[12.409850] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest.pc\n'}
+[12.409947] (TemplateProject) StdoutLine: {'line': b'-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest_main.pc\n'}
+[12.411448] (TemplateProject) CommandEnded: {'returncode': 0}
+[12.417866] (TemplateProject) JobEnded: {'identifier': 'TemplateProject', 'rc': 0}
+[12.418310] (-) EventReactorShutdown: {}

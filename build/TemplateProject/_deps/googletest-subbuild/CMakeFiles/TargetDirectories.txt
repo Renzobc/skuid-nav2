@@ -1,0 +1,3 @@
+/workspaces/skuid-nav2/build/TemplateProject/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/workspaces/skuid-nav2/build/TemplateProject/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/skuid-nav2/build/TemplateProject/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

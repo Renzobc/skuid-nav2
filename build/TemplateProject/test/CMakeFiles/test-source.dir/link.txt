@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test-source.dir/subfolder/test-source.cpp.o -o test-source  -lpthread ../src/libCustomLibrary.a ../lib/libgtest_maind.a ../lib/libgtestd.a 

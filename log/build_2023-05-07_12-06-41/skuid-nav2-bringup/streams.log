@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/skuid-nav2/skuid-nav2-bringup -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/skuid-nav2-bringup
+[0.027s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.126s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.171s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.172s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.172s] -- Added test 'lint_cmake' to check CMake code style
+[0.172s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.173s] -- Added test 'xmllint' to check XML markup files
+[0.173s] -- Configuring done
+[0.175s] -- Generating done
+[0.176s] -- Build files have been written to: /workspaces/skuid-nav2/build/skuid-nav2-bringup
+[0.178s] Invoked command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/skuid-nav2/skuid-nav2-bringup -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/skuid-nav2-bringup
+[0.179s] Invoking command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/skuid-nav2/build/skuid-nav2-bringup -- -j8 -l8
+[0.199s] Invoked command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/skuid-nav2/build/skuid-nav2-bringup -- -j8 -l8
+[0.223s] Invoking command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/skuid-nav2/build/skuid-nav2-bringup
+[0.227s] -- Install configuration: "Debug"
+[0.227s] -- Execute custom install script
+[0.227s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/launch/skuid-nav2.launch.py
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/costmap_2d.yaml
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/params_nav2_bringup.yaml
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/config/slam_toolbox_async_param.yaml
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/package_run_dependencies/skuid-nav2-bringup
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/parent_prefix_path/skuid-nav2-bringup
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/ament_prefix_path.sh
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/ament_prefix_path.dsv
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/path.sh
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/environment/path.dsv
+[0.228s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.bash
+[0.229s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.sh
+[0.229s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.zsh
+[0.229s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/local_setup.dsv
+[0.229s] -- Symlinking: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/package.dsv
+[0.234s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/ament_index/resource_index/packages/skuid-nav2-bringup
+[0.234s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/cmake/skuid-nav2-bringupConfig.cmake
+[0.234s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/cmake/skuid-nav2-bringupConfig-version.cmake
+[0.234s] -- Up-to-date symlink: /workspaces/skuid-nav2/install/skuid-nav2-bringup/share/skuid-nav2-bringup/package.xml
+[0.236s] Invoked command in '/workspaces/skuid-nav2/build/skuid-nav2-bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/skuid-nav2/build/skuid-nav2-bringup

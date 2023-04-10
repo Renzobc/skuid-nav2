@@ -1,0 +1,102 @@
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/skuid-nav2/build/TemplateProject
+[ 14%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/CustomLibrary.dir/subfolder/source.cpp.o[0m
+[ 21%] [32m[1mLinking CXX static library ../../../lib/libgtestd.a[0m
+[ 21%] Built target gtest
+[ 28%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 35%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 42%] [32m[1mLinking CXX static library libCustomLibrary.a[0m
+[ 42%] Built target CustomLibrary
+[ 50%] [32mBuilding CXX object app/CMakeFiles/app.dir/subfolder/app.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library ../../../lib/libgtest_maind.a[0m
+[ 57%] Built target gtest_main
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test-source.dir/subfolder/test-source.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable app[0m
+[ 78%] [32m[1mLinking CXX static library ../../../lib/libgmockd.a[0m
+[ 78%] Built target gmock
+[ 78%] Built target app
+[ 85%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 92%] [32m[1mLinking CXX executable test-source[0m
+[ 92%] Built target test-source
+[100%] [32m[1mLinking CXX static library ../../../lib/libgmock_maind.a[0m
+[100%] Built target gmock_main
+-- Install configuration: "Debug"
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/README.md
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-port.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-port.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-pp.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-matchers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-matchers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-spec-builders.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-nice-strict.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-cardinalities.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-actions.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-function-mocker.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-actions.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmockd.a
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmock_maind.a
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock.pc
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock_main.pc
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets-debug.cmake
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /workspaces/skuid-nav2/install/TemplateProject/include
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/README.md
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-port.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port-arch.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-param-util.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-string.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-internal.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-filepath.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-type-util.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-death-test.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-param-test.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_prod.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-typed-test.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_pred_impl.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-test-part.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-matchers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-message.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-printers.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-spi.h
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtestd.a
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtest_maind.a
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest.pc
+-- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest_main.pc

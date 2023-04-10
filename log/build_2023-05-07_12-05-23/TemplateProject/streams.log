@@ -1,0 +1,108 @@
+[0.019s] Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake /workspaces/skuid-nav2/project_folder -DCMAKE_BUILD_TYPE=Debug -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/TemplateProject
+[0.113s] -- The CXX compiler identification is GNU 11.3.0
+[0.123s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[1.643s] -- The C compiler identification is GNU 11.3.0
+[1.651s] -- Detecting C compiler ABI info
+[1.701s] -- Detecting C compiler ABI info - done
+[1.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.708s] -- Detecting C compile features
+[1.708s] -- Detecting C compile features - done
+[1.808s] -- Found Python: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.811s] -- Looking for pthread.h
+[1.866s] -- Looking for pthread.h - found
+[1.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.915s] -- Found Threads: TRUE  
+[1.920s] -- Configuring done
+[1.934s] -- Generating done
+[1.935s] -- Build files have been written to: /workspaces/skuid-nav2/build/TemplateProject
+[1.940s] Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake /workspaces/skuid-nav2/project_folder -DCMAKE_BUILD_TYPE=Debug -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/TemplateProject
+[1.941s] Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake --build /workspaces/skuid-nav2/build/TemplateProject -- -j8 -l8
+[1.970s] [ 14%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.970s] [ 14%] [32mBuilding CXX object src/CMakeFiles/CustomLibrary.dir/subfolder/source.cpp.o[0m
+[7.042s] [ 21%] [32m[1mLinking CXX static library ../../../lib/libgtestd.a[0m
+[7.120s] [ 21%] Built target gtest
+[7.143s] [ 28%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[7.145s] [ 35%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.459s] [ 42%] [32m[1mLinking CXX static library libCustomLibrary.a[0m
+[8.520s] [ 42%] Built target CustomLibrary
+[8.541s] [ 50%] [32mBuilding CXX object app/CMakeFiles/app.dir/subfolder/app.cpp.o[0m
+[8.868s] [ 57%] [32m[1mLinking CXX static library ../../../lib/libgtest_maind.a[0m
+[8.921s] [ 57%] Built target gtest_main
+[8.938s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test-source.dir/subfolder/test-source.cpp.o[0m
+[10.511s] [ 71%] [32m[1mLinking CXX executable app[0m
+[10.522s] [ 78%] [32m[1mLinking CXX static library ../../../lib/libgmockd.a[0m
+[10.595s] [ 78%] Built target gmock
+[10.603s] [ 78%] Built target app
+[10.610s] [ 85%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[11.083s] [ 92%] [32m[1mLinking CXX executable test-source[0m
+[11.241s] [ 92%] Built target test-source
+[12.320s] [100%] [32m[1mLinking CXX static library ../../../lib/libgmock_maind.a[0m
+[12.372s] [100%] Built target gmock_main
+[12.378s] Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake --build /workspaces/skuid-nav2/build/TemplateProject -- -j8 -l8
+[12.393s] Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake --install /workspaces/skuid-nav2/build/TemplateProject
+[12.398s] -- Install configuration: "Debug"
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-internal-utils.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-matchers.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/README.md
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-port.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/custom/gmock-generated-actions.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-port.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/internal/gmock-pp.h
+[12.399s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-matchers.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-matchers.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-spec-builders.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-nice-strict.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-cardinalities.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-more-actions.h
+[12.400s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-function-mocker.h
+[12.401s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock.h
+[12.401s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gmock/gmock-actions.h
+[12.401s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmockd.a
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgmock_maind.a
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock.pc
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gmock_main.pc
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets.cmake
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestTargets-debug.cmake
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfigVersion.cmake
+[12.403s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/cmake/GTest/GTestConfig.cmake
+[12.403s] -- Up-to-date: /workspaces/skuid-nav2/install/TemplateProject/include
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-death-test-internal.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/README.md
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-port.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/custom/gtest-printers.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port-arch.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-port.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-param-util.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-string.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-internal.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-filepath.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/internal/gtest-type-util.h
+[12.404s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-death-test.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-param-test.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_prod.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-typed-test.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest_pred_impl.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-test-part.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-matchers.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-message.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-printers.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/include/gtest/gtest-spi.h
+[12.405s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtestd.a
+[12.409s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/libgtest_maind.a
+[12.409s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest.pc
+[12.409s] -- Installing: /workspaces/skuid-nav2/install/TemplateProject/lib/pkgconfig/gtest_main.pc
+[12.413s] Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake --install /workspaces/skuid-nav2/build/TemplateProject

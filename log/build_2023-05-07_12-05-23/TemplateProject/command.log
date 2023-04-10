@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake /workspaces/skuid-nav2/project_folder -DCMAKE_BUILD_TYPE=Debug -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/TemplateProject
+Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake /workspaces/skuid-nav2/project_folder -DCMAKE_BUILD_TYPE=Debug -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/workspaces/skuid-nav2/install/TemplateProject
+Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake --build /workspaces/skuid-nav2/build/TemplateProject -- -j8 -l8
+Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake --build /workspaces/skuid-nav2/build/TemplateProject -- -j8 -l8
+Invoking command in '/workspaces/skuid-nav2/build/TemplateProject': /usr/bin/cmake --install /workspaces/skuid-nav2/build/TemplateProject
+Invoked command in '/workspaces/skuid-nav2/build/TemplateProject' returned '0': /usr/bin/cmake --install /workspaces/skuid-nav2/build/TemplateProject
